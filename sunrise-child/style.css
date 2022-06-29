@@ -102,46 +102,8 @@ header styles
 @media (max-width: 1360px) {
 	#mainHeader h1 {font-size: 2em;top:17px;}
 }
-@media (max-width: 1238px) {
-	#mainHeader h1 {top: 10px;}
-	#mainHeader aside {top:65px;left: 71px;right: auto;}
-	/*#mainHeader .sociallinks,#mainHeader #search-box .search-input, #mainHeader #search-box .search-submit {top:24px;}*/
-	#mainHeader .contactinfo {display:none;}
-}
-@media (max-width: 750px) {
-	#mainHeader .sociallinks {display: none;}
-	#mainHeader aside {left: -88px;}
-}
-@media (max-width: 600px) {
-	#mainHeader h1 {
-		position: relative;
-		width: calc(100% - 132px);
-		left: -30px;
-		top: -15px;
-		float: right;
-	}
-	#mainHeader aside {
-		position: relative;
-		top: -4px;
-		left: -30px;
-		right: 0;
-		width: calc(100% - 132px);
-		float: right;
-		margin-top: -40px;
-	}
-	#cludo-search-form {width:100%;position:relative;display:block;}
-	#mainHeader .sociallinks{
-		top:0;
-	}
-	#mainHeader #cludo-search-form .search-input, #mainHeader #cludo-search-form .search-submit {top: 20px;}
-	#mainHeader #cludo-search-form .search-input {
-		width: calc(100% - 35px);
-		left: 0px;
-	}
-	#mainHeader #cludo-search-form .search-submit {
-		right: 0px;
-	}
-}
+
+
 @media (max-width: 585px) {
 	#mainHeader {padding-right: 0;}
 	#mainHeader h1 {font-size: 1.5em;top: -10px;}
@@ -259,12 +221,7 @@ list icon color adjustments
 	#mainMenu > ul > li:first-child {padding-left: 0;}
 	.desktop-menu {padding-left: 10px;}
 }
-@media (max-width: 886px) {
-	.desktop-menu {display: none;}
-	#mainMenu {top: 143px;}
-	#mainMenu .mobileMenu {display: block;color: #fff;margin-left: 10px;font-size: 16px;}
-	#reveal-menu[type=checkbox]:checked ~ .mobile-menu {display: block;}
-}
+
 /*================================================================================================================
 Content Area
 ================================================================================================================*/
